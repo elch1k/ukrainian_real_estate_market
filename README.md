@@ -22,3 +22,17 @@ This section focuses on machine learning modeling and feature engineering. For a
   <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_7.png" width="390"/>
   <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_8.png" width="410"/>
 </p>
+
+The results of the ML models are summarized in the table below:
+
+| Model                    | MSE          | MAE          | R-squared | R-squared (train) | MAE (train)  |
+|--------------------------|--------------|--------------|-----------|-------------------|--------------|
+| Random Forest            | 4.095663e+11 | 4.541731e+05 | 0.784261  | 0.971179          | 1.652431e+05 |
+| XGBoost                  | 4.117143e+11 | 4.689842e+05 | 0.783130  | 0.873141          | 3.649617e+05 |
+| LightGBM                 | 4.190416e+11 | 4.759704e+05 | 0.779270  | 0.825531          | 4.295435e+05 |
+| Gradient Boosting Regressor | 5.039246e+11 | 5.263937e+05 | 0.734558  | 0.755315          | 5.083237e+05 |
+| Linear Regression        | 5.658520e+11 | 5.520614e+05 | 0.701938  | 0.730488          | 5.362226e+05 |
+| Decision Tree            | 8.004499e+11 | 5.946568e+05 | 0.578363  | 0.999994          | 1.358311e+02 |
+| Linear SVR               | 1.034925e+12 | 7.447428e+05 | 0.454854  | 0.470049          | 7.343808e+05 |
+| ADA Boost                | 1.076780e+12 | 8.992022e+05 | 0.432807  | 0.449638          | 8.931378e+05 |
+| SVR                      | 1.983542e+12 | 1.079638e+06 | -0.044830 | -0.037314         | 1.080444e+06 |

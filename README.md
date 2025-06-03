@@ -14,7 +14,7 @@ This research also indicates that real estate sales market valuations are consis
 
 A more crucial aspect of this research involves analyzing price distributions for both rental and sales transactions by city. This detailed examination of pricing provides a deeper understanding of the Ukrainian market structure and valuable insights.
 <p align="center">
-  <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_3.png" width="430"/>
-  <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_4.png" width="430"/>
+  <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_3.png" width="420"/>
+  <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_4.png" width="420"/>
 </p>
 

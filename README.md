@@ -21,11 +21,11 @@ This section focuses on machine learning modeling and feature engineering. For a
 <table>
   <tr>
     <td align="center">
-      <img src="image1.png" width="390"/><br/>
+      <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_7.png" width="390"/><br/>
       <sub>Label for image 1</sub>
     </td>
     <td align="center">
-      <img src="image2.png" width="410"/><br/>
+      <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_8.png" width="410"/><br/>
       <sub>Label for image 2</sub>
     </td>
   </tr>

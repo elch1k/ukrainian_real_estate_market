@@ -20,7 +20,9 @@ ML modeling part
 This section focuses on machine learning modeling and feature engineering. For a detailed understanding, please refer to the comprehensive walkthrough available [here](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/eda_and_ml/lun_real_estate_ml.ipynb). Additionally, location clusters were built for each city to enhance the final price prediction, significantly improving model performance. This approach allowed for the capture of localized pricing nuances that might otherwise be overlooked. Examples of this approach are shown in the plots below.
 <p align="center">
   <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_7.png" width="390"/>
+  <sub>Administrative areas</sub>
   <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_8.png" width="410"/>
+  <sub>Cluster areas</sub>
 </p>
 
 The results of the ML models are summarized in the table below:

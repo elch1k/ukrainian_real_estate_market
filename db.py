@@ -1,3 +1,4 @@
+from config import DRIVER_NAME, USERNAME, PASSWORD, HOST, DATABASE
 from sqlalchemy import create_engine, URL
 from sqlalchemy.orm import  sessionmaker
 from model import City, MainArea, SecondArea, Agency, Apartment, StatTable, Street, Newbuild, DealType, Currency
@@ -12,11 +13,11 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 
-def make_db_session(drivername="postgresql+psycopg2",
-                    username="postgres",
-                    password="dmytro21",
-                    host="localhost",
-                    database="apartment_db"):
+def make_db_session(drivername=DRIVER_NAME,
+                    username=USERNAME,
+                    password=PASSWORD,
+                    host=HOST,
+                    database=DATABASE):
     url_object = URL.create(
         drivername=drivername,
         username=username,

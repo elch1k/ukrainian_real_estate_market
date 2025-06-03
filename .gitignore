@@ -2,3 +2,4 @@ lun_real_estate_data.csv
 lun_real_estate_data.json
 .venv/
 database_initial_data/
+config.py

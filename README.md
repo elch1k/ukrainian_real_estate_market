@@ -36,3 +36,5 @@ The results of the ML models are summarized in the table below:
 | Linear SVR               | 1.034925e+12 | 7.447428e+05 | 0.454854  | 0.470049          | 7.343808e+05 |
 | ADA Boost                | 1.076780e+12 | 8.992022e+05 | 0.432807  | 0.449638          | 8.931378e+05 |
 | SVR                      | 1.983542e+12 | 1.079638e+06 | -0.044830 | -0.037314         | 1.080444e+06 |
+
+From the table, it's clear that the XGBoost model performs best. It achieves a relatively high R-squared while demonstrating less overfitting on the test (validation) data. As a result, this model was used for cross-validation, which yielded nearly identical results. This indicates our findings aren't due to a random data split but are robust. Furthermore, subsequent model tuning didn't significantly improve its performance. The final function from [this notebook](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/eda_and_ml/lun_real_estate_ml.ipynb) in the end can be used for custom applications of this [XGBoost model](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/eda_and_ml/production_ml/best_sale_deal_model.pkl).

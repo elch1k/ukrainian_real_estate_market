@@ -15,3 +15,10 @@ This research also indicates that real estate sales market valuations are consis
 A crucial aspect of this research involves analyzing price distributions for both rental and sales transactions by city. For this brief summary, we'll focus specifically on the sales data. This is because the sales dataset offers more data for training and exhibits a stronger correlation between sales prices and fundamental factors such as total square footage, kitchen square footage, and so on (the correlation matrix for rental deal types [here](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_5.png) and for sales deal types [here](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_6.png)). You can view the full visualizations for rental prices [here](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_3.png) and sales prices [here](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_4.png). This detailed examination of pricing provides a deeper understanding of the Ukrainian market structure and valuable insights.
 ![sales_price_distribution](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_4.png)
 
+ML modeling part
+--
+This section focuses on machine learning modeling and feature engineering. For a detailed understanding, please refer to the comprehensive walkthrough available [here](https://github.com/elch1k/ukrainian_real_estate_market/blob/main/eda_and_ml/lun_real_estate_ml.ipynb). Additionally, location clusters were built for each city to enhance the final price prediction, significantly improving model performance. This approach allowed for the capture of localized pricing nuances that might otherwise be overlooked. Examples of this approach are shown in the plots below.
+<p align="center">
+  <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_7.png" width="410"/>
+  <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_8.png" width="410"/>
+</p>

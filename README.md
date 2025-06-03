@@ -22,11 +22,11 @@ This section focuses on machine learning modeling and feature engineering. For a
   <tr>
     <td align="center">
       <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_7.png" width="390"/><br/>
-      <sub>Label for image 1</sub>
+      <sub>Administrative areas</sub>
     </td>
     <td align="center">
       <img src="https://github.com/elch1k/ukrainian_real_estate_market/blob/main/images/img_8.png" width="410"/><br/>
-      <sub>Label for image 2</sub>
+      <sub>Cluster areas</sub>
     </td>
   </tr>
 </table>
